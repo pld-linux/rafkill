@@ -1,0 +1,12 @@
+diff -urN raptor-1.0.0.orig/src/defs.cpp raptor-1.0.0/src/defs.cpp
+--- rafkill-1.0.1.orig/src/defs.cpp.orig	2003-06-12 22:56:30.000000000 +0200
++++ rafkill-1.0.1/src/defs.cpp	2003-06-12 22:58:03.000000000 +0200
+@@ -182,7 +182,7 @@
+ 	//char * file_place = new char[ 6 ];
+ 	char file_place[ 30 ];
+ 	//file_place = strdup( "data" );
+-	sprintf( file_place, "data" );
++	sprintf( file_place, "/usr/share/rafkill" );
+ 	put_backslash( file_place );
+ 	char * final = append( file_place, file_name );
+ 	//delete[] file_place;
