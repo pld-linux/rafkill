@@ -18,7 +18,7 @@ BuildRequires:	libstdc++-devel
 Obsoletes:	raptor <= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		specflags_ia32	"-fomit-frame-pointer"
+%define		specflags_ia32	 -fomit-frame-pointer 
 
 %description
 More or less a clone of a 2D vertical scroller much like Raptor: Call
