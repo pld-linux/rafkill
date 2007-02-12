@@ -1,5 +1,5 @@
 Summary:	2D arcade-style jet fighting shooter
-Summary(pl.UTF-8):   Strzelanka 2D w stylu arcade
+Summary(pl.UTF-8):	Strzelanka 2D w stylu arcade
 Name:		rafkill
 Version:	1.2.0
 Release:	1
