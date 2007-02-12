@@ -1,5 +1,5 @@
 Summary:	2D arcade-style jet fighting shooter
-Summary(pl):	Strzelanka 2D w stylu arcade
+Summary(pl.UTF-8):   Strzelanka 2D w stylu arcade
 Name:		rafkill
 Version:	1.2.0
 Release:	1
@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 More or less a clone of a 2D vertical scroller much like Raptor: Call
 of the Shadows or Tyrian.
 
-%description -l pl
+%description -l pl.UTF-8
 Mniej lub bardziej klon strzelanki 2D Raptor: Call of the Shadows lub
 Tyrian.
 
