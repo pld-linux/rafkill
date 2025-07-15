@@ -30,7 +30,7 @@ Tyrian.
 
 %prep
 %setup -q -n raptor-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 rm -f missing
